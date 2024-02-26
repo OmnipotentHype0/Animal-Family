@@ -1,1 +1,51 @@
+/* Overall Style */
+html {
+
+}
+
+body {
+    background-color: bisque;
+    
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+
+
+}
+
+/* Anchors and URLs*/
+a {
+    color: #0077cc;
+    text-decoration: none; 
+    transition: color 0.5s;
+}
+
+a:hover {
+    color: #004466;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: blue;
+    text-decoration: underline;
+}
+
+
+/* Headings */
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+/* Images */
+
 
