@@ -5,7 +5,7 @@ html {
 
 body {
     background-color: bisque;
-    
+
 }
 
 p {
@@ -47,5 +47,51 @@ h3 {
 
 }
 /* Images */
+img {
+
+}
+
+/* Breadcrumbs/Nav bar */
+
+.breadcrumbs {
+    padding: 0;
+    margin: 10px 0;
+}
+
+.breadcrumbs li {
+    display: inline; 
+    margin-right: 5px;
+}
+
+.breadcrumbs li::after {
+    content: '>';
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #333;
+}
+
+.breadcrumbs li:last-child::after {
+    content: ''; 
+}
+
+.breadcrumbs a {
+    text-decoration: none;
+    color: #0077cc;
+}
+
+.breadcrumbs a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Classes */
 
 
+.footer {
+    font-family: 'Courier New', Courier, monospace;
+    color: gray;
+    font-size: x-small;
+    text-align: right;
+}
+
+/* IDs */
