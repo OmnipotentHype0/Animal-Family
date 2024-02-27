@@ -16,6 +16,11 @@ p {
     font-size: 14px;
 }
 
+div {
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+}
+
 /* Anchors and URLs*/
 a {
     color: #0077cc;
@@ -62,11 +67,13 @@ img {
 .breadcrumb {
     padding: 0;
     margin: 10px 0;
+    border: black, 5px, solid;
 }
 
 .breadcrumb li {
     display: inline-block;
     margin-right: 10px;
+    border: solid, 5px, black;
 }
 
 .breadcrumb li::after {
@@ -96,12 +103,33 @@ img {
 
 }
 
+.container {
+    width: auto;
+    position: inherit;
+}
+
+.container-child {
+    display: inline-flex;
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
 .footer {
     font-family: 'raleway', sans-serif;
     color: gray;
     font-size: x-small;
     text-align: right;
     margin-top: auto;
+}
+
+.footer-child {
+    font-family: 'raleway', sans-serif;
+    color: gray;
+    font-size: x-small;
+    text-align: right;
+    margin-top: auto;
+    justify-content: flex-end;
 }
 
 /* IDs */
